@@ -1,29 +1,30 @@
-<html>
-<head>
-	<title>Example</title>
-	<style>
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.image1 {
-  width: 70%;
-}
-
-.image2 {
-  width: 50%;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-	</style>
-</head>
-<body>
-	<div class="container">
-		<img class="left" src="https://raw.githubusercontent.com/olgamaslovaolga/Alevel-Markup/master/images/hw-6.2.1.png" alt="Image 1">
-		<img class="right" src="https://raw.githubusercontent.com/olgamaslovaolga/Alevel-Markup/master/images/hw-6.2.2.png" alt="Image 2">
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum odio id libero sodales, vel malesuada tellus mattis. Nam fermentum iaculis tortor vitae bibendum. Nullam suscipit metus nec lorem lobortis, ac lobortis enim varius. Proin pellentesque, arcu sed imperdiet fringilla, ex dolor maximus mi, eu consequat mi libero a lorem. Etiam tempor, magna id euismod euismod, ipsum nisl varius justo, sit amet blandit nisi nibh nec quam. Duis quis lectus vel nunc faucibus facilisis quis in est. Donec sit amet justo felis. In hac habitasse platea dictumst. Fusce hendrerit neque et eros rhoncus, quis elementum eros malesuada. Praesent sodales, lacus ac consequat iaculis, tortor felis commodo quam, eu consectetur velit velit vitae nisl. Suspendisse potenti. Sed euismod, dolor vitae efficitur feugiat, tellus diam consequat nisl, nec faucibus quam ipsum quis lectus. Pellentesque pellentesque non augue non tincidunt. Nunc et hendrerit nibh.</p>
-	</div>
-</body>
-</html>
+<style>
+	.leftimg {
+	 float:left;
+	 margin: 0 10px 0 0;
+	 width:20%
+	}
+	.rightimg  {
+	 float: right;
+	 margin: 10px 0 10px 10px;
+	 width:20%
+	}
+   
+	.container {
+	 border:1px solid black;
+	 padding: 20px;
+	 margin: 0 auto;
+	 max-width: 800px;
+	}
+	.container p {
+	 text-align: justify;
+	 display: inline;
+	}
+ </style>
+ 
+ <div class="container">
+	 <p><img src="https://raw.githubusercontent.com/olgamaslovaolga/Alevel-Markup/master/images/hw-6.2.1.png" class="leftimg">
+		 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non pharetra mauris, a fermentum turpis. Etiam nec purus in odio congue ullamcorper. Fusce pulvinar ultricies nisi ut luctus. Maecenas molestie sed tortor eu finibus. Nullam a blandit libero. Fusce eget egestas est. Phasellus pulvinar sapien magna, eu lobortis mauris ultrices ac. Vivamus convallis sagittis lacus, ut eleifend ligula vestibulum vel. Praesent sed enim elit. Nunc vehicula tincidunt nisi ut varius. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed cursus velit dolor, ut tincidunt ex vulputate eget. Ut nunc nulla, lacinia sit amet massa et, lacinia fringilla leo. Vestibulum vel orci id turpis commodo hendrerit sed vitae ipsum. Sed sed velit quis justo gravida mollis. Nunc non scelerisque lorem. Nullam sed neque purus. Sed et sem malesuada, mollis erat a, dignissim est. Quisque ac dictum tellus. Aliquam erat volutpat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+	  <p><img src="https://raw.githubusercontent.com/olgamaslovaolga/Alevel-Markup/master/images/hw-6.2.2.png" class="rightimg">
+		 Vestibulum ultrices finibus ultrices. Maecenas fringilla lacus vel mauris ornare, vitae malesuada metus molestie. Ut sed lacus fringilla, bibendum ex quis, consectetur lacus. Mauris ac porttitor odio. Vestibulum a scelerisque massa. Vivamus et odio dolor. Suspendisse quis venenatis magna. Duis mollis auctor dolor a dignissim. Vivamus placerat, lorem sit amet consequat elementum, leo odio mattis diam, in lacinia felis ipsum sit amet urna. Phasellus iaculis cursus ipsum sed varius. Cras sit amet accumsan dolor, ut vestibulum nisl. Aenean mollis ligula id erat mattis auctor. Morbi eu mattis odio, viverra interdum tellus. Nam et sapien condimentum, tincidunt turpis ac, ullamcorper ex. Donec porttitor pellentesque molestie. Sed sit amet mauris sed purus dignissim feugiat. Phasellus gravida interdum orci, vel tristique magna. Quisque suscipit tortor non augue suscipit cursus a vitae ex. Vivamus ut augue ut quam suscipit pulvinar vel a lorem. Morbi mattis dolor velit, sed eleifend sapien aliquam a. Vivamus dapibus justo at leo iaculis, a dapibus ante tincidunt. Aliquam suscipit sapien vel sapien pulvinar gravida. Pellentesque sodales posuere convallis. Phasellus tempus viverra lorem, dignissim iaculis felis imperdiet at. Ut in ornare odio. Aliquam turpis leo, consequat quis volutpat nec, rutrum eget urna.</p>
+ </div>

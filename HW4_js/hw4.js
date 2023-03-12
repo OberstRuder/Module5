@@ -7,6 +7,20 @@ function counter() {
     }
     
     return add;
-  }
+}
 
+  function getUpdatedArr() {
+    if (!getUpdatedArr.arr) {
+      getUpdatedArr.arr = [];
+    }
   
+    if (arguments.length === 0) {
+      getUpdatedArr.arr = [];
+    } else {
+      for (let i = 0; i < arguments.length; i++) {
+        getUpdatedArr.arr.push(arguments[i]);
+      }
+    }
+  
+    return getUpdatedArr.arr;
+  }
